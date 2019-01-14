@@ -8,34 +8,35 @@ function myFunction() {
 
 function myFunction2() {
     var x = Math.floor((Math.random() * 4) + 1);
-    document.getElementById("blue").innerHTML = x;
+    document.getElementById("blueP").innerHTML = x;
 }
 
 
 function myFunction3() {
     var x = Math.floor((Math.random() * 4) + 1);
-    document.getElementById("green").innerHTML = x;
+    document.getElementById("greenP").innerHTML = x;
 }
 
 
 function myFunction4() {
     var x = Math.floor((Math.random() * 4) + 1);
-    document.getElementById("red").innerHTML = x;
+    document.getElementById("redP").innerHTML = x;
 }
 
 document.getElementById("yellow").addEventListener("click", myFunction5);
 
 function myFunction5() {
     var x = Math.floor((Math.random() * 4) + 1);
-    document.getElementById("yellow").innerHTML = x;
+    document.getElementById("yellowP").innerHTML = x;
     console.log()
 }
 
-$( "p" ).click(function() {
-    console.log( "You clicked a paragraph!" );
+$( "img" ).click(function() {
+    var x = Math.floor((Math.random() * 4) + 1);
+    document.getElementById("yellowP").innerHTML = x;
+    console.log( "You clicked an image!" );
 });
 
 
 
- 
 
